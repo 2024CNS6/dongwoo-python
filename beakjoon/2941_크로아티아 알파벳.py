@@ -2,7 +2,6 @@ s = input()
 n = 0
 o = len(s)
 time = 0
-
 for i in range(len(s)):
     if time != 0:
         time -= 1
@@ -17,5 +16,4 @@ for i in range(len(s)):
                 n += 1
                 o -= 1
                 time += 1
-
 print(n + o)
